@@ -19,7 +19,7 @@ void menu() {
         "0. Exit" << endl <<
         "Select the menu item: ";
 }
-
+//Task 1
 void task_1_run() {
     Keeper* keeper;
     keeper = new Keeper;
@@ -72,7 +72,7 @@ void task_1_run() {
     cout << "Program shutdown by user.";
 }
 
-
+//Task 2
 int task_2_run() {
     cout << "Enter file name to check: ";
     string file_name = "input.txt";
@@ -105,7 +105,7 @@ int task_2_run() {
     return 0;
 }
 
-
+//Choise task
 int main() {
     int task = 2;
     cout << "chouse task (1/2): ";
